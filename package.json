@@ -1,17 +1,15 @@
 {
-  "name"         : "node-web-scrape",
-  "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
-  "repository"   : {
-    "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+  "name": "genoset-scraper",
+  "version": "0.0.1",
+  "description": "Scrape all of the current genoset criteria, according to SNPedia",
+  "main": "server.js",
+  "author": "Chris Potter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrispotter/genoset-scraper"
   },
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest",
-    "util"       : "latest"
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
   }
 }
